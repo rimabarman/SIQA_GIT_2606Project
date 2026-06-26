@@ -8,9 +8,15 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: SIQA_TimeoutTest
+  version: "1.0"
   gitServerName: MJANGit
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
+  gitBranch: main
+- name: TPP_services_in_FCS
+  gitServerName: kvv
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: Karthik-V-IBM-10
   gitBranch: main
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
